@@ -1,0 +1,24 @@
+package Pack0.Locomotora;
+
+public class Locomotora {
+
+private int idLocomotora;
+private String marca;
+private String modelo;
+private String tipo;
+private String antiguedad;
+
+Locomotora(int a,String b,String c, String d, String e){
+
+    this.idLocomotora=a;
+    this.marca=b;
+    this. modelo=c;
+    this.tipo=d;
+    this.antiguedad=e;
+}
+
+public void Arrancar(){}
+public void Retroceder(){} 
+public void Detener(){}
+public void Avanzar(){}
+}
